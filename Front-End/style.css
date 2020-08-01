@@ -1,0 +1,98 @@
+body{
+    background-color: #f4f1de;
+    
+}
+#app{
+    display: flex;
+}
+#app div {
+    flex-grow: 1;
+    background-color: #ccc5b9;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+#meal{
+    margin-left: 0px;
+}
+
+#orders{
+    margin-right: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#submit{
+    background-color: #3d5a80;
+    color: azure;
+    border-radius: 7px;
+    border: 0px solid ;
+    padding: 10px 15px;
+    margin: 16px;
+    margin-left: 40px;
+}
+
+#submit:disabled{
+    background-color: #ee6c4d;
+
+}
+
+#meals-lista li{
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #98c1d9;
+}
+
+#app .form-main{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.form-tittle{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: #b7b7a4;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 100px;
+}
+
+.login-form p{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+}
+
+form input{
+    width: calc(100% - 20px);
+    height: 25px;
+    padding-left: 5px;
+    background-color: #f0efeb ;
+    border: solid 0px;
+    border-radius: 10px;
+    color: #003049;
+    margin-left: 5px;
+    margin-right: 6px;
+}
+
+.btn{
+  margin: 10px 5px;
+  padding: 10px 10px;
+  color: whitesmoke;
+  background-color: #6d6875;
+  width: calc(100% - 10px);
+  border: solid 1px #a5a58d;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+
